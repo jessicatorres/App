@@ -1,0 +1,18 @@
+<ion-view title="Page" id="page2">
+  <ion-content padding="true" class="has-header">
+    <form id="page-form3" class="list">
+      <label class="item item-input" id="page-input5">
+        <span class="input-label">Valor 1</span>
+        <input type="number" placeholder="" ng-model="dados.valor1">
+      </label>
+      <label class="item item-input" id="page-input6">
+        <span class="input-label">Valor 2</span>
+        <input type="number" placeholder="" ng-model="dados.valor2">
+      </label>
+    </form>
+    <button id="page-button3" ng-click="dados.somar()" style="border-radius:0px 0px 0px 0px;" class="button button-royal espaço">Somar</button>
+    <button id="page-button5" ng-click="dados.subtrair()" class="button button-positive espaço">Subtrair</button>
+    <button id="page-button6" ng-click="dados.multiplicar()" class="button button-assertive espaço">Multiplicar</button>
+    <h1 id="page-heading1" style="color:#4011F8;font-weight:300;text-align:center;">{{dados.resultado}}</h1>
+  </ion-content>
+</ion-view>
